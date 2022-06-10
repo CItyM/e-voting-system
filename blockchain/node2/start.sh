@@ -1,0 +1,2 @@
+#!/bin/bash
+geth --networkid 1234 --nousb --datadir=$pwd --syncmode full --port 30311 --miner.gasprice 0x0 --miner.gastarget 470000000000 --snapshot=false --http --http.addr '127.0.0.1' --http.port 8546 --http.corsdomain "*" --http.vhosts "*" --http.api admin,eth,miner,net,txpool,personal,web3 --ws --ws.port 8548 --ws.api admin,eth,miner,net,txpool,personal,web3 --allow-insecure-unlock --unlock 0xb022517f75b90A22E6e7Da738bb9a98F1342c24B --password password.txt --mine --miner.etherbase 0xb022517f75b90A22E6e7Da738bb9a98F1342c24B 

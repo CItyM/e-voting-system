@@ -1,0 +1,21 @@
+{
+  "name": "signer-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "bin": {
+    "signer-cli": "./bin/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bn.js": "^5.2.0",
+    "chalk": "^4.1.2",
+    "clear": "^0.1.0",
+    "ecurve": "^1.0.6",
+    "figlet": "^1.5.2",
+    "web3": "^1.7.1",
+    "yargs": "^17.4.0"
+  }
+}
